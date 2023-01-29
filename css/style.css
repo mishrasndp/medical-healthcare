@@ -1,0 +1,64 @@
+*{margin:0px;box-sizing: border-box; font-family:Calibri;}
+body{overflow-x: hidden;}
+h1,h2,h3,h2, h4,h5{font-family: 'Oswald', sans-serif;}
+.p-l{padding-left: 0px!important;}
+.our-services p{color:rgba(00,00, 00, 0.8)}
+header nav  a{font-weight:600;}
+.navbar-scroll{padding:8px 10px; width:100%;  position:fixed; top:0px; left:0px;
+ background:white!important; animation:scroll 0.5s 1;
+transition:0.5s;z-index:200; 
+
+ }
+@keyframes scroll{
+0%{transform:translatey(-100%);}
+100%{transform:translatey(0%);}
+}
+
+nav{padding:17px 0px!important;}
+nav a{padding-left:20px!important; padding-right:20px!important; color:black!important; }
+nav a:hover{color:#e73665!important;}
+
+.line{display: block; height:4px; width:30px; background-color: #e73665; margin:4px 0px; border-radius:4px;}
+/*-----------------banner ------------*/
+.banner{background-image:url(..//img/banner-1.jfif); height:50
+    0px; background-size:cover;}
+.banner p{margin:30px 0px;}
+.btn-first{background-color:#e73665; padding:14px 50px; border:none; color:white;}
+.our-services{background-color:#f4f4f4b5; padding:30px;}
+.btn-first{background-color:#e73665; padding:14px 50px; border:none; color:white;}
+.heading {margin-bottom: 30px;}
+.heading h3{ width:200px; margin: 0px auto;  display:block; text-align: center;}
+
+.heading h3::after{content: "";  display:block; height:4px; width:60%; background:#ff3547 !important; margin:10px  auto;  }
+
+.circle{width:80px; height:80px; margin:0 auto; background-color:#ff3547 !important; border-radius:100%;}
+.our-services .col-lg-3{padding:7px;}
+.our-services h4{font-size:18px; text-align: center; margin: 14px 0px;}
+.card{border-radius:0px;}
+
+
+/*---------------we-offer */
+.we-offer{ padding:40px; background-color: white;}
+.first-p{font-weight:600; margin: 10px 0px;}
+.we-offer .col-lg-6{padding:12px;}
+
+footer{background:black;  padding:40px 2px;}
+footer h4::after{content: "";  display:block; height:3px; width:20%; background:#ff3547 !important; margin-top:10px; }
+
+
+
+@media(max-width:900px){
+h1{font-size:25px;}
+    .banner{background-image:url(..//img/banner-1.jfif); height:50
+        0px; background-position: center; height:400px;}
+
+
+}
+
+@media(max-width:768px){
+
+  .p-l{padding-left:10px!important;}      
+
+}
+            
+    
